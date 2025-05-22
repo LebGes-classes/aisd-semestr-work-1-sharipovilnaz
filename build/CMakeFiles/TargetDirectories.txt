@@ -1,0 +1,5 @@
+D:/PROGA/C++/splay_tree/build/CMakeFiles/splay_tree.dir
+D:/PROGA/C++/splay_tree/build/CMakeFiles/PACKAGE.dir
+D:/PROGA/C++/splay_tree/build/CMakeFiles/RUN_TESTS.dir
+D:/PROGA/C++/splay_tree/build/CMakeFiles/ALL_BUILD.dir
+D:/PROGA/C++/splay_tree/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="lw4YyqoIjYACgRcpKskA">
+    <mxGraphModel dx="1447" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ouka-V6pqD-U-KgNtd1H-1" value="Splay tree" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Ouka-V6pqD-U-KgNtd1H-2" value="&lt;div&gt;Node* createNewNode(int key);&lt;/div&gt;&lt;div&gt;Node* rightRotate(Node* root);&lt;/div&gt;&lt;div&gt;Node* leftRotate(Node* root);&lt;/div&gt;&lt;div&gt;Node* insert(Node* root, int key);&lt;/div&gt;&lt;div&gt;Node* splay(Node* root, int key);&lt;/div&gt;&lt;div&gt;Node* search(Node* root, int key);&lt;/div&gt;&lt;div&gt;Node* deleteNode(Node* root, int key);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void preOrder(Node* root);&lt;/div&gt;&lt;div&gt;void inOrder(Node* root);&lt;/div&gt;&lt;div&gt;void postOrder(Node* root);&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ouka-V6pqD-U-KgNtd1H-1">
+          <mxGeometry y="30" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ouka-V6pqD-U-KgNtd1H-5" value="Node" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ouka-V6pqD-U-KgNtd1H-6" value="int key&lt;div&gt;Node *left&lt;/div&gt;&lt;div&gt;Node *right&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ouka-V6pqD-U-KgNtd1H-5">
+          <mxGeometry y="30" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ouka-V6pqD-U-KgNtd1H-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ouka-V6pqD-U-KgNtd1H-2" target="Ouka-V6pqD-U-KgNtd1H-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

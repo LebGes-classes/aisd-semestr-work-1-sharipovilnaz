@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: Launch (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "../build/Debug/splay_tree.exe", // Относительный путь
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "../build/Debug", // Текущая рабочая директория
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/TDM-GCC-64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
